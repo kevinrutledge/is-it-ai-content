@@ -1,0 +1,92 @@
+[
+  {
+    "id": "placeholder_e1",
+    "filename": "images/placeholder_easy_1.webp",
+    "type": "ai",
+    "difficulty": "easy",
+    "explanation": "Placeholder: obvious extra finger artifact.",
+    "annotations": [
+      { "x": 0.5, "y": 0.5, "radius": 0.1, "artifactType": "anatomical", "label": "Extra finger", "description": "Sixth finger visible" }
+    ]
+  },
+  {
+    "id": "placeholder_e2",
+    "filename": "images/placeholder_easy_2.webp",
+    "type": "real",
+    "difficulty": "easy",
+    "attribution": { "photographer": "Test Photographer", "year": 2024, "context": "Test photo" },
+    "whyItLookedAI": "Placeholder: unusual colors looked synthetic.",
+    "story": "Placeholder story for testing. This would describe why the real image was mistaken for AI.",
+    "annotations": []
+  },
+  {
+    "id": "placeholder_e3",
+    "filename": "images/placeholder_easy_3.webp",
+    "type": "ai",
+    "difficulty": "easy",
+    "explanation": "Placeholder: text rendering is garbled.",
+    "annotations": [
+      { "x": 0.3, "y": 0.4, "radius": 0.12, "artifactType": "texture", "label": "Garbled text", "description": "Letters are nonsensical" }
+    ]
+  },
+  {
+    "id": "placeholder_m1",
+    "filename": "images/placeholder_med_1.webp",
+    "type": "ai",
+    "difficulty": "medium",
+    "explanation": "Placeholder: subtle background inconsistency.",
+    "annotations": [
+      { "x": 0.7, "y": 0.3, "radius": 0.08, "artifactType": "background", "label": "Warped line", "description": "Straight edge bends unnaturally" }
+    ]
+  },
+  {
+    "id": "placeholder_m2",
+    "filename": "images/placeholder_med_2.webp",
+    "type": "real",
+    "difficulty": "medium",
+    "attribution": { "photographer": "Test Photographer", "year": 2023, "context": "Test photo" },
+    "whyItLookedAI": "Placeholder: lighting seemed too perfect.",
+    "story": "Placeholder story for testing medium difficulty real image.",
+    "annotations": []
+  },
+  {
+    "id": "placeholder_m3",
+    "filename": "images/placeholder_med_3.webp",
+    "type": "ai",
+    "difficulty": "medium",
+    "explanation": "Placeholder: facial symmetry is too exact.",
+    "annotations": [
+      { "x": 0.5, "y": 0.35, "radius": 0.15, "artifactType": "facial", "label": "Perfect symmetry", "description": "Face is unnaturally symmetric" }
+    ]
+  },
+  {
+    "id": "placeholder_h1",
+    "filename": "images/placeholder_hard_1.webp",
+    "type": "ai",
+    "difficulty": "hard",
+    "explanation": "Placeholder: shadow direction is inconsistent.",
+    "annotations": [
+      { "x": 0.6, "y": 0.7, "radius": 0.06, "artifactType": "lighting", "label": "Wrong shadow", "description": "Shadow falls opposite to light source" }
+    ]
+  },
+  {
+    "id": "placeholder_h2",
+    "filename": "images/placeholder_hard_2.webp",
+    "type": "real",
+    "difficulty": "hard",
+    "attribution": { "photographer": "Miles Astray", "year": 2024, "context": "Wildlife reserve photograph" },
+    "whyItLookedAI": "The flamingo's extreme neck contortion created a pose that looked physically impossible.",
+    "story": "This photo won both the jury and people's vote in the AI category of the 1839 Awards — then was disqualified after the reveal.",
+    "annotations": []
+  },
+  {
+    "id": "placeholder_h3",
+    "filename": "images/placeholder_hard_3.webp",
+    "type": "real",
+    "difficulty": "hard",
+    "attribution": { "photographer": "Test Photographer", "year": 2025, "context": "Test photo" },
+    "whyItLookedAI": "Placeholder: composition seemed algorithmically perfect.",
+    "story": "Placeholder story for testing hard difficulty real image.",
+    "annotations": []
+  }
+]
