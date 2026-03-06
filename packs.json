@@ -1,0 +1,9 @@
+[
+  {
+    "id": "test-pack",
+    "name": "Test Pack",
+    "description": "A small test pack for verifying the download system",
+    "itemCount": 3,
+    "difficulty": "easy"
+  }
+]
