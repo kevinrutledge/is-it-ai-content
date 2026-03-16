@@ -7,7 +7,7 @@
     "packageId": "pack-1",
     "attribution": { "photographer": "Evan Vucci (AP)", "year": 2024, "context": "Butler, Pennsylvania rally" },
     "whyItLookedAI": "A troll version with six fingers went viral, making people doubt the real photo too.",
-    "story": "Evan Vucci captured Trump raising his fist with blood on his face seconds after being shot at a Butler, Pennsylvania rally on July 13, 2024. A doctored version adding a sixth finger circulated widely, causing people to question whether the original AP photo was also AI-generated.",
+    "story": "Evan Vucci captured Trump raising his fist with blood on his face seconds after being shot at a Butler, Pennsylvania rally on July 13, 2024. A doctored version with a sixth finger circulated widely. People started questioning whether the original AP photo was also AI-generated.",
     "annotations": []
   },
   {
@@ -18,7 +18,7 @@
     "packageId": "pack-1",
     "attribution": { "photographer": "Andrew Harnik (Getty)", "year": 2024, "context": "Detroit Metropolitan Airport rally" },
     "whyItLookedAI": "Telephoto compression flattened 15,000 people into a uniform crowd that looked artificially generated.",
-    "story": "Andrew Harnik shot this overhead view of roughly 15,000 supporters on the tarmac at Detroit Metropolitan Airport during a Kamala Harris rally in August 2024. The telephoto lens compressed the depth, making the massive crowd look flat and unnaturally uniform.",
+    "story": "Andrew Harnik shot this overhead view of roughly 15,000 supporters on the tarmac at Detroit Metropolitan Airport during a Kamala Harris rally in August 2024. The telephoto lens compressed the depth. The massive crowd looks flat and unnaturally uniform.",
     "annotations": []
   },
   {
@@ -89,7 +89,7 @@
     "type": "ai",
     "difficulty": "medium",
     "packageId": "pack-1",
-    "explanation": "Circulated during Hurricane Helene as a real rescue photo. Multiple versions exist with different dog colors and boat colors, proving it was generated.",
+    "explanation": "Circulated during Hurricane Helene as a real rescue photo. Multiple versions exist with different dog colors and boat colors — proof it was generated.",
     "annotations": []
   },
   {
