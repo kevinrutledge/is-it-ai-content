@@ -1,0 +1,122 @@
+[
+  {
+    "id": "pack1_trump_fistpump",
+    "filename": "images/trump_fistpump.webp",
+    "type": "real",
+    "difficulty": "medium",
+    "packageId": "pack-1",
+    "attribution": { "photographer": "Evan Vucci (AP)", "year": 2024, "context": "Butler, Pennsylvania rally" },
+    "whyItLookedAI": "A troll version with six fingers went viral, making people doubt the real photo too.",
+    "story": "Evan Vucci captured Trump raising his fist with blood on his face seconds after being shot at a Butler, Pennsylvania rally on July 13, 2024. A doctored version adding a sixth finger circulated widely, causing people to question whether the original AP photo was also AI-generated.",
+    "annotations": []
+  },
+  {
+    "id": "pack1_harris_rally",
+    "filename": "images/harris_rally.webp",
+    "type": "real",
+    "difficulty": "medium",
+    "packageId": "pack-1",
+    "attribution": { "photographer": "Andrew Harnik (Getty)", "year": 2024, "context": "Detroit Metropolitan Airport rally" },
+    "whyItLookedAI": "Telephoto compression flattened 15,000 people into a uniform crowd that looked artificially generated.",
+    "story": "Andrew Harnik shot this overhead view of roughly 15,000 supporters on the tarmac at Detroit Metropolitan Airport during a Kamala Harris rally in August 2024. The telephoto lens compressed the depth, making the massive crowd look flat and unnaturally uniform.",
+    "annotations": []
+  },
+  {
+    "id": "pack1_tehran_square",
+    "filename": "images/tehran_square.webp",
+    "type": "real",
+    "difficulty": "hard",
+    "packageId": "pack-1",
+    "attribution": { "photographer": "Arash Khamooshi (NYT)", "year": 2026, "context": "Enghelab Square, Tehran" },
+    "whyItLookedAI": "The sheer scale of the crowd and dramatic composition looked too perfect to be a spontaneous photograph.",
+    "story": "Arash Khamooshi photographed a massive crowd filling Revolution Square in Tehran for the New York Times in March 2026. The scale and composition seemed impossibly dramatic for a news photo.",
+    "annotations": []
+  },
+  {
+    "id": "pack1_coronado_surf",
+    "filename": "images/coronado_surf.webp",
+    "type": "real",
+    "difficulty": "hard",
+    "packageId": "pack-1",
+    "attribution": { "photographer": "Randy Dible", "year": 2026, "context": "Coronado Beach, San Diego" },
+    "whyItLookedAI": "Telephoto compression made the Coronado Bridge and skyline appear impossibly close to the breaking waves.",
+    "story": "Randy Dible shot waves breaking with the Coronado Bridge and San Diego skyline compressed behind them. PetaPixel reported he had two separate sets of photos falsely accused of being AI on the same day. The extreme telephoto compression creates a perspective that looks physically impossible.",
+    "annotations": []
+  },
+  {
+    "id": "pack1_fuji_landscape",
+    "filename": "images/fuji_landscape.webp",
+    "type": "real",
+    "difficulty": "medium",
+    "packageId": "pack-1",
+    "attribution": { "photographer": "Peter Yan", "year": 2024, "context": "Mount Fuji, Japan" },
+    "whyItLookedAI": "Instagram automatically labeled this real photo 'Made with AI' because the photographer used Adobe tools that triggered the AI metadata flag.",
+    "story": "Peter Yan's Mount Fuji landscape was auto-labeled 'Made with AI' by Instagram because Adobe Creative Cloud tools added AI metadata tags even when no generative AI was used. PetaPixel covered the story as an example of overzealous AI detection harming real photographers.",
+    "annotations": []
+  },
+  {
+    "id": "pack1_siren_laser",
+    "filename": "images/siren_laser.webp",
+    "type": "real",
+    "difficulty": "hard",
+    "packageId": "pack-1",
+    "attribution": { "photographer": "Reuben Wu", "year": 2024, "context": "Lake Michigan, Siren series" },
+    "whyItLookedAI": "Glowing geometric light forms hovering above a landscape look exactly like something typed into a prompt.",
+    "story": "Reuben Wu uses GPS-programmed drones carrying LED lights in long exposures to create his Siren series. The glowing curtain-like forms above Lake Michigan are real light captured in-camera. LensCulture published the series with the subtitle 'No, These Photos Are Not AI.'",
+    "annotations": []
+  },
+  {
+    "id": "pack1_perry_metgala",
+    "filename": "images/perry_metgala.webp",
+    "type": "ai",
+    "difficulty": "medium",
+    "packageId": "pack-1",
+    "explanation": "A Brazilian fan created this with AI. Katy Perry never attended the 2024 Met Gala. Her own mother was fooled.",
+    "annotations": []
+  },
+  {
+    "id": "pack1_rafah_tents",
+    "filename": "images/rafah_tents.webp",
+    "type": "ai",
+    "difficulty": "easy",
+    "packageId": "pack-1",
+    "explanation": "The most-shared image on Instagram ever with 50M+ shares. The tent rows are unnaturally uniform and the snow-capped mountains look nothing like real Rafah.",
+    "annotations": []
+  },
+  {
+    "id": "pack1_helene_puppy",
+    "filename": "images/helene_puppy.webp",
+    "type": "ai",
+    "difficulty": "medium",
+    "packageId": "pack-1",
+    "explanation": "Circulated during Hurricane Helene as a real rescue photo. Multiple versions exist with different dog colors and boat colors, proving it was generated.",
+    "annotations": []
+  },
+  {
+    "id": "pack1_gemini_nazi",
+    "filename": "images/gemini_nazi.webp",
+    "type": "ai",
+    "difficulty": "easy",
+    "packageId": "pack-1",
+    "explanation": "Google Gemini generated racially diverse Nazi soldiers when asked for WWII images. Google pulled the feature within days. The historical impossibility was the obvious tell.",
+    "annotations": []
+  },
+  {
+    "id": "pack1_shrimp_jesus",
+    "filename": "images/shrimp_jesus.webp",
+    "type": "ai",
+    "difficulty": "easy",
+    "packageId": "pack-1",
+    "explanation": "AI spam farms created 'Shrimp Jesus' images as Facebook engagement bait. The impossible composition and merging of human and crustacean forms are obvious AI artifacts.",
+    "annotations": []
+  },
+  {
+    "id": "pack1_gaza_baby",
+    "filename": "images/gaza_baby.webp",
+    "type": "ai",
+    "difficulty": "medium",
+    "packageId": "pack-1",
+    "explanation": "This AI-generated baby first appeared during the Turkey-Syria earthquake in 2023, then was recycled during the Gaza conflict. Extra fingers and unnatural forehead creases give it away.",
+    "annotations": []
+  }
+]
