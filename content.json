@@ -1,92 +1,177 @@
 [
   {
-    "id": "placeholder_e1",
-    "filename": "images/placeholder_easy_1.webp",
-    "type": "ai",
-    "difficulty": "easy",
-    "explanation": "Placeholder: obvious extra finger artifact.",
-    "annotations": [
-      { "x": 0.5, "y": 0.5, "radius": 0.1, "artifactType": "anatomical", "label": "Extra finger", "description": "Sixth finger visible" }
-    ]
-  },
-  {
-    "id": "placeholder_e2",
-    "filename": "images/placeholder_easy_2.webp",
-    "type": "real",
-    "difficulty": "easy",
-    "attribution": { "photographer": "Test Photographer", "year": 2024, "context": "Test photo" },
-    "whyItLookedAI": "Placeholder: unusual colors looked synthetic.",
-    "story": "Placeholder story for testing. This would describe why the real image was mistaken for AI.",
-    "annotations": []
-  },
-  {
-    "id": "placeholder_e3",
-    "filename": "images/placeholder_easy_3.webp",
-    "type": "ai",
-    "difficulty": "easy",
-    "explanation": "Placeholder: text rendering is garbled.",
-    "annotations": [
-      { "x": 0.3, "y": 0.4, "radius": 0.12, "artifactType": "texture", "label": "Garbled text", "description": "Letters are nonsensical" }
-    ]
-  },
-  {
-    "id": "placeholder_m1",
-    "filename": "images/placeholder_med_1.webp",
-    "type": "ai",
-    "difficulty": "medium",
-    "explanation": "Placeholder: subtle background inconsistency.",
-    "annotations": [
-      { "x": 0.7, "y": 0.3, "radius": 0.08, "artifactType": "background", "label": "Warped line", "description": "Straight edge bends unnaturally" }
-    ]
-  },
-  {
-    "id": "placeholder_m2",
-    "filename": "images/placeholder_med_2.webp",
-    "type": "real",
-    "difficulty": "medium",
-    "attribution": { "photographer": "Test Photographer", "year": 2023, "context": "Test photo" },
-    "whyItLookedAI": "Placeholder: lighting seemed too perfect.",
-    "story": "Placeholder story for testing medium difficulty real image.",
-    "annotations": []
-  },
-  {
-    "id": "placeholder_m3",
-    "filename": "images/placeholder_med_3.webp",
-    "type": "ai",
-    "difficulty": "medium",
-    "explanation": "Placeholder: facial symmetry is too exact.",
-    "annotations": [
-      { "x": 0.5, "y": 0.35, "radius": 0.15, "artifactType": "facial", "label": "Perfect symmetry", "description": "Face is unnaturally symmetric" }
-    ]
-  },
-  {
-    "id": "placeholder_h1",
-    "filename": "images/placeholder_hard_1.webp",
-    "type": "ai",
-    "difficulty": "hard",
-    "explanation": "Placeholder: shadow direction is inconsistent.",
-    "annotations": [
-      { "x": 0.6, "y": 0.7, "radius": 0.06, "artifactType": "lighting", "label": "Wrong shadow", "description": "Shadow falls opposite to light source" }
-    ]
-  },
-  {
-    "id": "placeholder_h2",
-    "filename": "images/placeholder_hard_2.webp",
+    "id": "astray_flamingo",
+    "filename": "images/flamingo_beach.webp",
     "type": "real",
     "difficulty": "hard",
-    "attribution": { "photographer": "Miles Astray", "year": 2024, "context": "Wildlife reserve photograph" },
-    "whyItLookedAI": "The flamingo's extreme neck contortion created a pose that looked physically impossible.",
-    "story": "This photo won both the jury and people's vote in the AI category of the 1839 Awards — then was disqualified after the reveal.",
+    "credit": "Miles Astray, 2024",
+    "attribution": {
+      "photographer": "Miles Astray",
+      "year": 2024,
+      "context": "1839 Color Photography Awards"
+    },
+    "whyItLookedAI": "The flamingo appears headless. AI generators often produce impossible anatomy like this. The clean beach and surreal pose feel like a prompt output.",
+    "story": "Miles Astray entered this real photo into the AI category of the 1839 Awards on purpose. The flamingo was scratching its belly with its head tucked behind its body. It won both the People's Vote and a Jury Award over actual AI entries. He revealed it was real, got disqualified, and said nature still outdoes the machine.",
     "annotations": []
   },
   {
-    "id": "placeholder_h3",
-    "filename": "images/placeholder_hard_3.webp",
+    "id": "dougherty_gucci",
+    "filename": "images/gucci_exhibition.webp",
+    "type": "real",
+    "difficulty": "medium",
+    "credit": "Suzi Dougherty, 2023",
+    "attribution": {
+      "photographer": "Suzi Dougherty",
+      "year": 2023,
+      "context": "Charing Cross Photo competition, Sydney"
+    },
+    "whyItLookedAI": "The mannequins sit in the uncanny valley. Their smooth skin and frozen poses next to a real person make the whole scene feel generated. The flat exhibition lighting adds to it.",
+    "story": "Suzi Dougherty took this on her iPhone at a Gucci exhibition at the Powerhouse Museum in Sydney. She entered it in a local photo contest. Judges checked the metadata but still disqualified it for being 'a little AI-ish.' She proved it was real. The shop posted a correction and waived her next entry fee.",
+    "annotations": []
+  },
+  {
+    "id": "mccarthy_sun",
+    "filename": "images/sun_skydiver.webp",
     "type": "real",
     "difficulty": "hard",
-    "attribution": { "photographer": "Test Photographer", "year": 2025, "context": "Test photo" },
-    "whyItLookedAI": "Placeholder: composition seemed algorithmically perfect.",
-    "story": "Placeholder story for testing hard difficulty real image.",
+    "credit": "Andrew McCarthy, 2024",
+    "attribution": {
+      "photographer": "Andrew McCarthy",
+      "year": 2024,
+      "context": "Astrophotography"
+    },
+    "whyItLookedAI": "A person falling past the surface of the Sun looks physically impossible. Nobody would believe this is a single real exposure.",
+    "story": "Andrew McCarthy shot this from 1.5 miles away using a hydrogen-alpha solar telescope. He called it 'the most preposterously fake-looking real photo I've ever captured.' It took 6 tries to line up the telescope with the skydiver's path. The jumper had one shot to hit the right position.",
     "annotations": []
+  },
+  {
+    "id": "goetsch_giraffe",
+    "filename": "images/giraffe_moon.webp",
+    "type": "real",
+    "difficulty": "hard",
+    "credit": "Kyle Goetsch, 2024",
+    "attribution": {
+      "photographer": "Kyle Goetsch",
+      "year": 2024,
+      "context": "Wildlife and astrophotography, Namib Desert"
+    },
+    "whyItLookedAI": "A giraffe silhouetted against a pink moon this large looks like a composite or a generation. The scale seems wrong for a ground-level photograph.",
+    "story": "Kyle Goetsch has a PhD in Biochemistry and leads photography workshops in southern Africa. He shot this in the Namib Desert when a giraffe walked in front of a low full moon. CNN says it is 'one of the photos that gets most called out for being AI.' The oversized moon is a telephoto lens compression effect. Nothing was composited.",
+    "annotations": []
+  },
+  {
+    "id": "fullerton_batten_feet",
+    "filename": "images/feet_washing.webp",
+    "type": "real",
+    "difficulty": "medium",
+    "credit": "Julia Fullerton-Batten, 2024",
+    "attribution": {
+      "photographer": "Julia Fullerton-Batten",
+      "year": 2024,
+      "context": "He Gets Us campaign, Super Bowl LVIII"
+    },
+    "whyItLookedAI": "The lighting is cinematic and the staging looks arranged. The expressions read as polished rather than candid. When photos look this produced, people assume a computer made them.",
+    "story": "Julia Fullerton-Batten shot these for the 'He Gets Us' ad during Super Bowl LVIII. Social media and SB Nation accused them of being AI. She said she was 'very sad' about it. It was a week-long shoot in LA with full sets, professional lighting, and dozens of assistants.",
+    "annotations": []
+  },
+  {
+    "id": "lansche_grizzly",
+    "filename": "images/grizzly_elk.webp",
+    "type": "real",
+    "difficulty": "hard",
+    "credit": "Charlie Lansche, 2025",
+    "attribution": {
+      "photographer": "Charlie Lansche",
+      "year": 2025,
+      "context": "Wildlife photography, Yellowstone National Park"
+    },
+    "whyItLookedAI": "A grizzly resting its paw on an elk antler like a trophy pose looks staged. It reads like something someone would type into a prompt.",
+    "story": "Charlie Lansche camped near a dead bull elk in a Yellowstone mud bog for 5 days. When he posted 'Claiming the Prize' showing a grizzly with its paw on the antler, commenters said it was 'total AI.' Five days of fieldwork, not five seconds of typing.",
+    "annotations": []
+  },
+  {
+    "id": "eldagsen_pseudomnesia",
+    "filename": "images/vintage_portrait.webp",
+    "type": "ai",
+    "difficulty": "medium",
+    "credit": "Boris Eldagsen, 2023",
+    "explanation": "Boris Eldagsen won the Sony World Photography Awards Creative category with this DALL-E 2 image, then turned down the prize. He said AI and photography should not compete in the same awards. He calls AI image-making 'promptography.' The title 'Pseudomnesia' means 'false memory.' The 1940s styling was chosen to hide artifacts.",
+    "story": "Boris Eldagsen won the Sony World Photography Awards Creative category with this image, then turned down the prize. He said AI and photography should not compete in the same awards. He calls AI image-making 'promptography.' The title means 'false memory.'",
+    "annotations": [
+      { "x": 0.30, "y": 0.60, "radius": 0.09, "artifactType": "anatomical", "label": "Right hand", "description": "Fingers and fingernails merge together on the shoulder." },
+      { "x": 0.92, "y": 0.60, "radius": 0.09, "artifactType": "anatomical", "label": "Left shoulder", "description": "Distorted fingers from outpainting. Eldagsen confirmed this artifact." },
+      { "x": 0.05, "y": 0.28, "radius": 0.07, "artifactType": "lighting", "label": "Color bleed", "description": "Yellow tint from outpainting. The right side shifts to pure black and white." }
+    ]
+  },
+  {
+    "id": "xavier_pope",
+    "filename": "images/pope_jacket.webp",
+    "type": "ai",
+    "difficulty": "hard",
+    "credit": "Pablo Xavier, 2023",
+    "explanation": "Pablo Xavier, a 31-year-old construction worker from outside Chicago, made this with Midjourney. Millions thought it was real, including Chrissy Teigen, who tweeted she 'didn't give it a second thought.' It went viral before anyone checked.",
+    "story": "Pablo Xavier is a 31-year-old construction worker from outside Chicago. Millions of people thought this image of Pope Francis in a white puffer jacket was a real photograph. Chrissy Teigen tweeted she 'thought the pope's puffer jacket was real and didn't give it a second thought.' It went viral before anyone thought to check.",
+    "annotations": [
+      { "x": 0.19, "y": 0.88, "radius": 0.07, "artifactType": "anatomical", "label": "Right hand", "description": "Fingers close around thin air instead of gripping the cup." },
+      { "x": 0.53, "y": 0.53, "radius": 0.08, "artifactType": "texture", "label": "Crucifix", "description": "Floats against the jacket. Chain only visible on one side." },
+      { "x": 0.56, "y": 0.16, "radius": 0.06, "artifactType": "facial", "label": "Glasses", "description": "Eyelid, frames, and shadow merge into one fused surface." }
+    ]
+  },
+  {
+    "id": "higgins_trump",
+    "filename": "images/trump_arrest.webp",
+    "type": "ai",
+    "difficulty": "medium",
+    "credit": "Eliot Higgins, 2023",
+    "explanation": "Eliot Higgins, who runs the investigative journalism group Bellingcat, made these with Midjourney v5. He labeled them as AI on Twitter. They were shared 6.7 million times anyway, often without the label. Midjourney banned him and blocked the word 'arrested' in prompts. This was days before Trump's actual indictment.",
+    "story": "Eliot Higgins runs Bellingcat, an investigative journalism group. He posted these on Twitter and labeled them as AI. They were shared 6.7 million times anyway, often without that context. Midjourney banned him from the platform and blocked the word 'arrested' in prompts. This happened days before Trump's actual indictment.",
+    "annotations": [
+      { "x": 0.21, "y": 0.47, "radius": 0.10, "artifactType": "anatomical", "label": "Hands", "description": "Officers' fingers merge into Trump's body. Stubby, paw-like grip." },
+      { "x": 0.19, "y": 0.25, "radius": 0.08, "artifactType": "texture", "label": "Badge text", "description": "Garbled nonsense on the shoulder patch. Midjourney could not render text." },
+      { "x": 0.55, "y": 0.75, "radius": 0.15, "artifactType": "anatomical", "label": "Legs", "description": "Nonsensical leg placements. Too many legs, impossible angles and positions." }
+    ]
+  },
+  {
+    "id": "pentagon_explosion",
+    "filename": "images/pentagon_smoke.webp",
+    "type": "ai",
+    "difficulty": "medium",
+    "credit": "Bloomberg Feed (parody), 2023",
+    "explanation": "A verified Twitter account impersonating Bloomberg News shared this. The Dow dropped about 80 points and the S&P 500 fell 0.15% before recovering within minutes. Bloomberg said it was 'possibly the first instance of an AI-generated image moving the market.' No explosion occurred.",
+    "story": "A verified Twitter account impersonating Bloomberg News shared this image. The Dow dropped about 80 points. The S&P 500 fell 0.15% before recovering within minutes. Bloomberg called it 'possibly the first instance of an AI-generated image moving the market.' No explosion occurred. Authorities debunked it quickly, but the financial damage was already done.",
+    "annotations": [
+      { "x": 0.35, "y": 0.82, "radius": 0.12, "artifactType": "background", "label": "Fence", "description": "Fence morphs into crowd barriers. Bellingcat's Nick Waters flagged this first." },
+      { "x": 0.95, "y": 0.65, "radius": 0.12, "artifactType": "background", "label": "Building", "description": "Does not match the real Pentagon. Windows and columns are irregular." },
+      { "x": 0.53, "y": 0.90, "radius": 0.05, "artifactType": "background", "label": "Lamppost", "description": "Appears both in front of and behind the barrier at the same time." }
+    ]
+  },
+  {
+    "id": "earthquake_firefighter",
+    "filename": "images/earthquake_rescue.webp",
+    "type": "ai",
+    "difficulty": "easy",
+    "credit": "Social media, 2023",
+    "explanation": "The Turkey-Syria earthquake in February 2023 killed over 35,000 people. Scammers generated fake rescue images and posted them on Twitter next to cryptocurrency wallet addresses asking for donations. This image spread widely because people were too emotionally invested to look closely.",
+    "story": "The Turkey-Syria earthquake in February 2023 killed over 35,000 people. Scammers generated fake rescue images and posted them on Twitter next to cryptocurrency wallet addresses, asking for donations. This image spread widely. People were too emotionally invested to look closely.",
+    "annotations": [
+      { "x": 0.35, "y": 0.90, "radius": 0.12, "artifactType": "anatomical", "label": "Hands", "description": "Six fingers on one hand with an abnormally long thumb." },
+      { "x": 0.74, "y": 0.65, "radius": 0.10, "artifactType": "texture", "label": "Badge text", "description": "EMAK patch and uniform markings are blurry and illegible." },
+      { "x": 0.85, "y": 0.40, "radius": 0.10, "artifactType": "background", "label": "Buildings", "description": "Rubble has illogical geometry. Windows blend into walls." }
+    ]
+  },
+  {
+    "id": "olympics_graphic",
+    "filename": "images/olympics_skiing.webp",
+    "type": "ai",
+    "difficulty": "easy",
+    "credit": "Olympic Games, 2026",
+    "explanation": "The official Olympic Games account on X posted this during the 2026 Winter Olympics. Users spotted errors within minutes. The IOC admitted AI tools were used in 'early sketching and illustration' with manual work afterward, but the mistakes made it through. The post was deleted.",
+    "story": "The official Olympic Games account on X posted this during the 2026 Winter Olympics. Users spotted the errors immediately: misspelled text, wrong Olympic logo, garbled signs. The IOC said AI tools were used in 'early sketching and illustration' with manual refinement afterward. The post was deleted.",
+    "annotations": [
+      { "x": 0.15, "y": 0.63, "radius": 0.04, "artifactType": "background", "label": "Olympic rings", "description": "Wrong interlocking pattern. Violates the IOC's brand guidelines." },
+      { "x": 0.70, "y": 0.70, "radius": 0.06, "artifactType": "texture", "label": "Garbled German", "description": "'Olympische Winterspiele' mangled into nonsense on the right poster." },
+      { "x": 0.28, "y": 0.70, "radius": 0.06, "artifactType": "texture", "label": "Center poster", "description": "Incoherent imagery and unreadable text. Does not match any real Olympic poster." },
+      { "x": 0.38, "y": 0.68, "radius": 0.05, "artifactType": "texture", "label": "Poster text", "description": "Garbled text that only vaguely resembles 'Jeux Olympiques d'Hiver.'" }
+    ]
   }
 ]
