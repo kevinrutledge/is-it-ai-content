@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-"""Regenerate packs.json with computed itemCount and sizeMb from disk."""
-
 import json
 from pathlib import Path
 
