@@ -1,12 +1,5 @@
 [
   {
-    "id": "test-pack",
-    "name": "Test Pack",
-    "description": "A small test pack for verifying the download system",
-    "itemCount": 3,
-    "theme": "Testing"
-  },
-  {
     "id": "pack-1",
     "name": "Viral Fakes & Real Shakes",
     "description": "Famous AI fakes that fooled millions and real photos accused of being AI",

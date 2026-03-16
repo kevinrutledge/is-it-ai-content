@@ -90,7 +90,7 @@
     "annotations": [
       { "x": 0.50, "y": 0.40, "radius": 0.12, "artifactType": "texture", "label": "Uniform tent rows", "description": "Tents are arranged in perfect, repeating grid patterns. Real refugee camps are chaotic." },
       { "x": 0.80, "y": 0.15, "radius": 0.12, "artifactType": "background", "label": "Fictional mountains", "description": "Snow-capped mountains and golden light look nothing like the flat terrain of real Rafah." },
-      { "x": 0.50, "y": 0.85, "radius": 0.10, "artifactType": "background", "label": "No people", "description": "The entire camp is empty. No human figures, vehicles, belongings, or debris anywhere." }
+      { "x": 0.50, "y": 0.85, "radius": 0.15, "artifactType": "background", "label": "No people", "description": "The entire camp is empty. No human figures, vehicles, belongings, or debris anywhere." }
     ]
   },
   {
@@ -103,7 +103,7 @@
     "annotations": [
       { "x": 0.40, "y": 0.83, "radius": 0.07, "artifactType": "anatomical", "label": "Missing finger", "description": "The girl's left hand has only four fingers." },
       { "x": 0.50, "y": 0.45, "radius": 0.08, "artifactType": "texture", "label": "Glossy skin", "description": "Unnaturally smooth, porcelain-like skin with no pores or blemishes." },
-      { "x": 0.82, "y": 0.23, "radius": 0.07, "artifactType": "background", "label": "Vanishing boat", "description": "A boat in the background fades and disappears unnaturally." },
+      { "x": 0.82, "y": 0.23, "radius": 0.10, "artifactType": "background", "label": "Vanishing boat", "description": "A boat in the background fades and disappears unnaturally." },
       { "x": 0.65, "y": 0.47, "radius": 0.06, "artifactType": "texture", "label": "Life jacket reflector", "description": "The reflector strip changes between different versions of this image." }
     ]
   },
@@ -130,11 +130,11 @@
     "packageId": "pack-1",
     "explanation": "AI spam farms created 'Shrimp Jesus' images as Facebook engagement bait. The impossible composition and merging of human and crustacean forms are obvious AI artifacts.",
     "annotations": [
-      { "x": 0.18, "y": 0.33, "radius": 0.08, "artifactType": "anatomical", "label": "Left hand", "description": "Fingers merge with shrimp legs. No clear boundary between hand and crustacean." },
-      { "x": 0.72, "y": 0.38, "radius": 0.08, "artifactType": "anatomical", "label": "Right hand", "description": "Same merging on the other side. Fingers and shrimp appendages fuse together." },
-      { "x": 0.47, "y": 0.26, "radius": 0.08, "artifactType": "facial", "label": "Waxy face", "description": "Skin is too smooth and glassy. The expression is flat and affect-less." },
-      { "x": 0.48, "y": 0.50, "radius": 0.10, "artifactType": "texture", "label": "Body-shell fusion", "description": "Human torso and shrimp shell blend together with no coherent boundary." },
-      { "x": 0.48, "y": 0.10, "radius": 0.07, "artifactType": "texture", "label": "Halo confusion", "description": "Crown of thorns and halo are mashed together. No real artist would mix these." }
+      { "x": 0.18, "y": 0.33, "radius": 0.05, "artifactType": "anatomical", "label": "Left hand", "description": "Fingers merge with shrimp legs. No clear boundary between hand and crustacean." },
+      { "x": 0.72, "y": 0.38, "radius": 0.05, "artifactType": "anatomical", "label": "Right hand", "description": "Same merging on the other side. Fingers and shrimp appendages fuse together." },
+      { "x": 0.47, "y": 0.26, "radius": 0.05, "artifactType": "facial", "label": "Waxy face", "description": "Skin is too smooth and glassy. The expression is flat and affect-less." },
+      { "x": 0.48, "y": 0.50, "radius": 0.07, "artifactType": "texture", "label": "Body-shell fusion", "description": "Human torso and shrimp shell blend together with no coherent boundary." },
+      { "x": 0.48, "y": 0.10, "radius": 0.05, "artifactType": "texture", "label": "Halo confusion", "description": "Crown of thorns and halo are mashed together. No real artist would mix these." }
     ]
   },
   {
@@ -146,7 +146,7 @@
     "explanation": "This AI-generated baby first appeared during the Turkey-Syria earthquake in 2023, then was recycled during the Gaza conflict. Extra fingers and unnatural forehead creases give it away.",
     "annotations": [
       { "x": 0.89, "y": 0.83, "radius": 0.07, "artifactType": "anatomical", "label": "Extra fingers", "description": "The baby's hand has more than five fingers with deformed, curling shapes." },
-      { "x": 0.58, "y": 0.29, "radius": 0.08, "artifactType": "facial", "label": "Forehead creases", "description": "Wrinkle pattern on the forehead does not match how real infant skin creases." },
+      { "x": 0.59, "y": 0.26, "radius": 0.04, "artifactType": "facial", "label": "Forehead creases", "description": "Wrinkle pattern on the forehead does not match how real infant skin creases." },
       { "x": 0.53, "y": 0.67, "radius": 0.07, "artifactType": "facial", "label": "Exaggerated chin", "description": "The chin area is distorted beyond what natural anatomy produces." },
       { "x": 0.51, "y": 0.35, "radius": 0.06, "artifactType": "facial", "label": "Unnatural eye shimmer", "description": "Eyes shimmer with light that does not match the scene's actual lighting." }
     ]
