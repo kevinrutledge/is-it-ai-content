@@ -72,7 +72,13 @@
     "difficulty": "medium",
     "packageId": "pack-1",
     "explanation": "A Brazilian fan created this with AI. Katy Perry never attended the 2024 Met Gala. Her own mother was fooled.",
-    "annotations": []
+    "annotations": [
+      { "x": 0.15, "y": 0.10, "radius": 0.10, "artifactType": "facial", "label": "Melted faces", "description": "Photographer faces in the background blur and merge together." },
+      { "x": 0.80, "y": 0.15, "radius": 0.08, "artifactType": "anatomical", "label": "Warped hands", "description": "Background photographers have misshapen, distorted hands on their cameras." },
+      { "x": 0.35, "y": 0.40, "radius": 0.07, "artifactType": "anatomical", "label": "Missing arm", "description": "One of Perry's arms is absent from the image." },
+      { "x": 0.55, "y": 0.45, "radius": 0.06, "artifactType": "texture", "label": "Skin-fabric blend", "description": "Dress fabric merges into her skin instead of sitting on top of the body." },
+      { "x": 0.10, "y": 0.65, "radius": 0.10, "artifactType": "background", "label": "Wrong carpet", "description": "The staircase carpet matches the 2018 Met Gala, not the 2024 event." }
+    ]
   },
   {
     "id": "pack1_rafah_tents",
@@ -81,7 +87,12 @@
     "difficulty": "easy",
     "packageId": "pack-1",
     "explanation": "The most-shared image on Instagram ever with 50M+ shares. The tent rows are unnaturally uniform and the snow-capped mountains look nothing like real Rafah.",
-    "annotations": []
+    "annotations": [
+      { "x": 0.50, "y": 0.75, "radius": 0.12, "artifactType": "texture", "label": "Uniform tent rows", "description": "Tents are arranged in perfect, repeating grid patterns. Real refugee camps are chaotic." },
+      { "x": 0.70, "y": 0.12, "radius": 0.12, "artifactType": "background", "label": "Fictional mountains", "description": "Snow-capped mountains and golden light look nothing like the flat terrain of real Rafah." },
+      { "x": 0.30, "y": 0.60, "radius": 0.10, "artifactType": "background", "label": "No people", "description": "The entire camp is empty. No human figures, vehicles, belongings, or debris anywhere." },
+      { "x": 0.40, "y": 0.50, "radius": 0.08, "artifactType": "lighting", "label": "Inconsistent shadows", "description": "Shadow directions contradict each other across different parts of the scene." }
+    ]
   },
   {
     "id": "pack1_helene_puppy",
@@ -90,7 +101,13 @@
     "difficulty": "medium",
     "packageId": "pack-1",
     "explanation": "Circulated during Hurricane Helene as a real rescue photo. Multiple versions exist with different dog colors and boat colors. That alone proves it was generated.",
-    "annotations": []
+    "annotations": [
+      { "x": 0.30, "y": 0.65, "radius": 0.07, "artifactType": "anatomical", "label": "Missing finger", "description": "The girl's left hand has only four fingers." },
+      { "x": 0.45, "y": 0.30, "radius": 0.08, "artifactType": "texture", "label": "Glossy skin", "description": "Unnaturally smooth, porcelain-like skin with no pores or blemishes." },
+      { "x": 0.35, "y": 0.90, "radius": 0.08, "artifactType": "background", "label": "Warped boat floor", "description": "Wooden slats do not follow correct perspective geometry." },
+      { "x": 0.85, "y": 0.20, "radius": 0.07, "artifactType": "background", "label": "Vanishing boat", "description": "A boat in the background fades and disappears unnaturally." },
+      { "x": 0.65, "y": 0.50, "radius": 0.06, "artifactType": "texture", "label": "Life jacket reflector", "description": "The reflector strip changes between different versions of this image." }
+    ]
   },
   {
     "id": "pack1_gemini_nazi",
@@ -99,7 +116,13 @@
     "difficulty": "easy",
     "packageId": "pack-1",
     "explanation": "Google Gemini generated racially diverse Nazi soldiers when asked for WWII images. Google pulled the feature within days. The historical impossibility was the obvious tell.",
-    "annotations": []
+    "annotations": [
+      { "x": 0.30, "y": 0.20, "radius": 0.08, "artifactType": "texture", "label": "Garbled insignia", "description": "Helmet symbols are unreadable glyphs instead of actual WWII-era markings." },
+      { "x": 0.75, "y": 0.25, "radius": 0.08, "artifactType": "texture", "label": "Garbled insignia", "description": "Right helmet has distorted symbols that do not match any real military unit." },
+      { "x": 0.15, "y": 0.55, "radius": 0.10, "artifactType": "facial", "label": "Waxy skin", "description": "Skin is unnaturally smooth and pore-less with an airbrushed quality." },
+      { "x": 0.35, "y": 0.85, "radius": 0.07, "artifactType": "texture", "label": "Wrong uniform details", "description": "Collar tabs and patches do not correspond to any real military branch or rank." },
+      { "x": 0.70, "y": 0.80, "radius": 0.07, "artifactType": "texture", "label": "Anachronistic patches", "description": "Shoulder insignia are generic composites, not accurate reproductions." }
+    ]
   },
   {
     "id": "pack1_shrimp_jesus",
@@ -108,7 +131,13 @@
     "difficulty": "easy",
     "packageId": "pack-1",
     "explanation": "AI spam farms created 'Shrimp Jesus' images as Facebook engagement bait. The impossible composition and merging of human and crustacean forms are obvious AI artifacts.",
-    "annotations": []
+    "annotations": [
+      { "x": 0.15, "y": 0.40, "radius": 0.08, "artifactType": "anatomical", "label": "Left hand", "description": "Fingers merge with shrimp legs. No clear boundary between hand and crustacean." },
+      { "x": 0.85, "y": 0.40, "radius": 0.08, "artifactType": "anatomical", "label": "Right hand", "description": "Same merging on the other side. Fingers and shrimp appendages fuse together." },
+      { "x": 0.48, "y": 0.25, "radius": 0.08, "artifactType": "facial", "label": "Waxy face", "description": "Skin is too smooth and glassy. The expression is flat and affect-less." },
+      { "x": 0.45, "y": 0.55, "radius": 0.10, "artifactType": "texture", "label": "Body-shell fusion", "description": "Human torso and shrimp shell blend together with no coherent boundary." },
+      { "x": 0.48, "y": 0.08, "radius": 0.07, "artifactType": "texture", "label": "Halo confusion", "description": "Crown of thorns and halo are mashed together. No real artist would mix these." }
+    ]
   },
   {
     "id": "pack1_gaza_baby",
@@ -117,6 +146,11 @@
     "difficulty": "medium",
     "packageId": "pack-1",
     "explanation": "This AI-generated baby first appeared during the Turkey-Syria earthquake in 2023, then was recycled during the Gaza conflict. Extra fingers and unnatural forehead creases give it away.",
-    "annotations": []
+    "annotations": [
+      { "x": 0.75, "y": 0.72, "radius": 0.07, "artifactType": "anatomical", "label": "Extra fingers", "description": "The baby's hand has more than five fingers with deformed, curling shapes." },
+      { "x": 0.60, "y": 0.25, "radius": 0.08, "artifactType": "facial", "label": "Forehead creases", "description": "Wrinkle pattern on the forehead does not match how real infant skin creases." },
+      { "x": 0.60, "y": 0.62, "radius": 0.07, "artifactType": "facial", "label": "Exaggerated chin", "description": "The chin area is distorted beyond what natural anatomy produces." },
+      { "x": 0.58, "y": 0.42, "radius": 0.06, "artifactType": "facial", "label": "Unnatural eye shimmer", "description": "Eyes shimmer with light that does not match the scene's actual lighting." }
+    ]
   }
 ]
